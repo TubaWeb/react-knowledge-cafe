@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "cover": "https://i.ibb.co/LYJwdZ4/5423587.jpg",
+        "title": "Exploring the Cosmos",
+        "author": "John Doe",
+        "author_img": "https://i.ibb.co/p05dM0Z/front-view-young-businessman-sitting-desk-modern-office.jpg",
+        "posted_date": "2024-01-10",
+        "reading_time": 5,
+        "hashtags": ["#space", "#cosmos", "#science"]
+    },
+    {
+        "id": 2,
+        "cover": "https://i.ibb.co/TTmXVnM/3606208.jpg",
+        "title": "The Art of Cooking",
+        "author": "Jane Smith",
+        "author_img": "https://i.ibb.co/nLQ5SJJ/good-looking-young-man-stylish-black-hat-sitting-table-with-mobile-phone-mug.jpg",
+        "posted_date": "2024-02-15",
+        "reading_time": 10,
+        "hashtags": ["#cooking", "#food", "#recipes"]
+    },
+    {
+        "id": 3,
+        "cover": "https://i.ibb.co/fdM4HPZ/7048312.jpg",
+        "title": "Adventures in the Wild",
+        "author": "Alice Johnson",
+        "author_img": "https://i.ibb.co/CwVVWDj/handsome-businessman-is-working-his-office.jpg",
+        "posted_date": "2024-03-05",
+        "reading_time": 7,
+        "hashtags": ["#adventure", "#wildlife", "#nature"]
+    },
+    {
+        "id": 4,
+        "cover": "https://i.ibb.co/31Wwq8j/modern-office-desk-composition.jpg",
+        "title": "Tech Innovations of 2024",
+        "author": "Bob Brown",
+        "author_img": "https://i.ibb.co/1ZfX5J6/young-businessman-sitting-cafe-with-laptop.jpg",
+        "posted_date": "2024-04-22",
+        "reading_time": 8,
+        "hashtags": ["#technology", "#innovation", "#future"]
+    },
+    {
+        "id": 5,
+        "cover": "https://i.ibb.co/JHsrjGf/top-view-desk-with-copy-space-tags.jpg",
+        "title": "The History of Art",
+        "author": "Carol White",
+        "author_img": "https://i.ibb.co/2qb7ZkN/young-male-artist-looking-camera-with-painting-tools.jpg",
+        "posted_date": "2024-05-18",
+        "reading_time": 6,
+        "hashtags": ["#art", "#history", "#culture"]
+    }
+]
