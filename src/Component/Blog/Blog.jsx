@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { BsBookmarkCheckFill } from "react-icons/bs";
 
 
-const Blog = ({ blog, handleAddToBookmarks }) => {
+const Blog = ({ blog, handleAddToBookmarks, handleMarkAsRead }) => {
     const { title, cover, author_img, author, posted_date, reading_time, hashtags } = blog;
     return (
         <div className='mb-20'>
@@ -20,7 +20,7 @@ const Blog = ({ blog, handleAddToBookmarks }) => {
                     <span>{reading_time}min read</span>
                     {/* Bookmark */}
                     <button
-                        onClick={ () => handleAddToBookmarks(blog)}
+                        onClick={() => handleAddToBookmarks(blog)}
                         className='ml-3'
                     ><BsBookmarkCheckFill></BsBookmarkCheckFill></button>
                 </div>
@@ -32,14 +32,21 @@ const Blog = ({ blog, handleAddToBookmarks }) => {
                     hashtags.map((hash, idx) => <span key={idx}><a href="">{hash}</a></span>)
                 }
             </p>
-            <button className='mt-3'><span className='text-purple-600'>Mark as read</span></button>
+            <button
+                onClick={() => handleMarkAsRead(reading_time)}
+                className='mt-3'
+            ><span
+                className='text-purple-600 font-semibold underline'
+            >Mark as read</span>
+            </button>
         </div>
     );
 };
 
 Blog.propTypes = {
     blog: PropTypes.object.isRequired,
-    handleAddToBookmarks: PropTypes.func.isRequired
+    handleAddToBookmarks: PropTypes.func.isRequired,
+    handleMarkAsRead: PropTypes.func.isRequired
 }
 
 export default Blog;
